@@ -1,0 +1,12 @@
+mkdir -p kubernetes-training/tp2
+mv pod.yml nginx-deployment.yml kubernetes-training/tp2
+echo "# Kubernetes tranning" >> README.md
+git init
+git add README.md
+git add .
+git add tp2/
+git config --global user.name "woodswolf@gmail.com" 
+git config --global user.email "woodswolf@gmail.com" 
+git commit -m "tp 2"
+git remote add origin https://github.com/woodswolfhub/woodswolf.git
+git push -u origin master
